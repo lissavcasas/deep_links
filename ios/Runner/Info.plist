@@ -22,10 +22,10 @@
 	<array>
 		<dict>
 			<key>CFBundleURLName</key>
-			<string>deeplink.flutter.dev</string>
+			<string>oss.eurorenting.com.pe</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>poc</string>
+				<string>dev</string>
 			</array>
 		</dict>
 	</array>

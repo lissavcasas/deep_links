@@ -34,8 +34,8 @@
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
                 <data
-                    android:scheme="poc"
-                    android:host="deeplink.flutter.dev" />
+                    android:scheme="http"
+                    android:host="oss.rentingsac.com.pe" />
             </intent-filter>
         </activity>
         <!-- Don't delete the meta-data below.

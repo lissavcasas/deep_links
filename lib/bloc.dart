@@ -9,10 +9,10 @@ abstract class Bloc {
 class DeepLinkBloc extends Bloc {
 
   //Event Channel creation
-  static const stream = const EventChannel('poc.deeplink.flutter.dev/events');
+  static const stream = const EventChannel('dev.oss.eurorenting.com.pe/events');
 
   //Method channel creation
-  static const platform = const MethodChannel('poc.deeplink.flutter.dev/channel');
+  static const platform = const MethodChannel('dev.oss.eurorenting.com.pe/channel');
 
   StreamController<String> _stateController = StreamController();
 

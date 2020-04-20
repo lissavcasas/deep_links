@@ -14,8 +14,8 @@ import io.flutter.plugins.GeneratedPluginRegistrant
 
 class MainActivity: FlutterActivity() {
 
-    private val CHANNEL = "poc.deeplink.flutter.dev/channel"
-    private val EVENTS = "poc.deeplink.flutter.dev/events"
+    private val CHANNEL = "dev.oss.eurorenting.com.pe/channel"
+    private val EVENTS = "dev.oss.eurorenting.com.pe/events"
     private var startString: String? = null
     private var linksReceiver: BroadcastReceiver? = null
 
